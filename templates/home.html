@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irfan Ahamed Essa Front-End Developer</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Irfan Ahamed Essa</h1>
+      <p>Front-End Developer</p>
+    </header>
+
+    <div class="container">
+      <section class="about">
+        <h2>About Me</h2>
+        <p>
+          Welcome to my portfolio! I'm a passionate front-end developer with a
+          strong foundation in HTML, CSS, and JavaScript. I love creating
+          responsive and user-friendly websites that bring ideas to life.
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <ul class="left-column">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive Web Design</li>
+          </ul>
+          <ul class="right-column">
+            <li>Version Control (Git)</li>
+            <li>Front-End Frameworks basic React</li>
+            <!-- Add more skills here -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img
+            class="image"
+            src="./static/images/mushroom.jpg"
+            alt="Project 1"
+          />
+          <h3>Mushroom classification using machine learning technology</h3>
+          <p>
+            In the Mushroom Classification for Edibility project,I have develop
+            a robust machine learning model to classify mushrooms as either
+            edible or poisonous based on their features. The dataset employed
+            for this task is a supervised dataset containing various attributes
+            of mushrooms, such as cap shape, cap color, odor, and more. The
+            primary objective was to build a model capable of accurately
+            predicting the edibility of mushrooms, thus serving as a valuable
+            tool for mushroom enthusiasts and foragers.
+          </p>
+          <a href="{{ url_for('project') }}" target="_blank">View Project</a>
+        </div>
+
+        <!-- Add more project cards as needed -->
+      </section>
+    </div>
+
+    <aside class="contact">
+      <h2>Contact Me</h2>
+      <p>
+        If you're interested in reaching out or have any questions, feel free to
+        contact me.
+      </p>
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:iaessa.2000@gmail.com">iaessa.2000@gmail.com</a>
+        </li>
+        <li>Phone: <a href="tel:8838789572">8838789572</a></li>
+        <li>
+          LinkedIn:
+          <a
+            href="www.linkedin.com/in/a-irfan-ahamed-essa-b67383227"
+            target="_blank"
+            >LinkedIn Profile</a
+          >
+        </li>
+        <li>
+          GitHub:
+          <a href="https://github.com/irfan-9572" target="_blank"
+            >irfan Ahamed Essa</a
+          >
+        </li>
+      </ul>
+    </aside>
+
+    <footer>
+      <p>&copy; 2023 Irfan Ahamed Essa - Front-End Developer</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

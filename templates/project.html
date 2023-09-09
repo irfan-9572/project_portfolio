@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Summary: Mushroom Classification</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/project.css') }}"
+    />
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="{{ url_for('home') }}">Home</a></li>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#proposed-method">Proposed Method</a></li>
+          <li><a href="#performance-comparison">Performance Comparison</a></li>
+        </ul>
+      </nav>
+      <h1>
+        Machine Learning-based Classification of Edible and Poisonous Mushrooms:
+        A Performance Comparison
+      </h1>
+    </header>
+
+    <main>
+      <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+          Many factors, such as climatic factors, soil factors, and biotic
+          factors, influence the diversity of organisms, which is exciting
+          because it can see differences from one organism to another, which is
+          still one level. One of the exciting living organisms to observe is
+          the fungal species. Each country must have distinctive and abundant
+          natural resources and have various levels of living organisms,
+          including at the level of genes, species, and eco-systems.
+        </p>
+        <p>
+          Mushroom classification is a significant issue in the fields of
+          biology, mycology, and food science. Mushrooms are widely consumed as
+          food, and the demand for edible mushrooms is increasing worldwide.
+          However, the identification of edible and poisonous mushrooms is a
+          complex task, even for experts. Many poisonous mushrooms closely
+          resemble edible ones, making it challenging to distinguish between
+          them based on visual inspection alone. Ingesting poisonous mushrooms
+          can lead to severe health problems and even death, highlighting the
+          importance of accurate mushroom classification. Identifying edible and
+          poisonous mushrooms is a difficult task, even for experts.
+        </p>
+      </section>
+      <section id="proposed-method">
+        <h2>Proposed Method</h2>
+        <p>
+          The study aimed to assess the effectiveness of a stacking ensemble
+          machine learning technique in detecting cloud-based phishing attacks.
+          The dataset was divided into training and testing sets, and various
+          machine learning models, including Random Forests, Support Vector
+          Machines, K-Nearest Neighbors, Decision Tree, Gradient Boosting
+          Classifier, CatBoost Classifier, XGBoost Classifier, and Multi-layer
+          Perceptron, were trained and tested. The best four models were
+          combined using a stacking ensemble approach. The results showed that
+          the proposed method achieved high accuracy, precision, and recall in
+          detecting phishing websites, outperforming other methods and
+          individual models.
+        </p>
+      </section>
+      <section id="performance-comparison">
+        <h2>Performance Comparison</h2>
+        <p>
+          This study compared the accuracy of various traditional machine
+          learning classifiers for mushrooms. Results showed that the proposed
+          stacking ensemble approach outperformed other classifiers in all
+          datasets, achieving the highest accuracy scores of 97.6%, 86.2%,
+          88.6%, and 98.8% for Datasets 1 to 4, respectively. The K-Nearest
+          Neighbors classifier had the lowest accuracy score in all datasets.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Irfan Ahamed Essa - Front-End Developer</p>
+      <div class="social-icons">
+        <a href="#"><img src="../static/images/fb.png" alt="facebook" /></a>
+        <a href="#"><img src="../static/images/twitter.png" alt="Twitter" /></a>
+        <a href="#"
+          ><img src="../static/images/linkedin.png" alt="LinkedIn"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
